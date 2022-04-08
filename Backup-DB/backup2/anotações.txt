@@ -1,0 +1,4 @@
+// adicionar no db tbm responsavel pelo pedido
+não finaliza pedido sem nome do responsavel
+
+Criar LOGICA PARA GUARDAR E BAIXAR O FILE

@@ -1,0 +1,26 @@
+.btnall{
+    border: transparent;
+    padding: 20px;
+    border-radius: 20px;
+    width: 200px;
+    color: black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.btnnew{
+    background-color: rgb(53, 193, 30);
+}
+
+.btnnew:hover{
+    box-shadow: rgb(53, 193, 30) 0px 20px 30px -10px;
+    background-color: rgb(39, 136, 24);
+}
+
+@media screen and (max-width: 600px){
+    .bar-lateral{
+        height: 25vh;
+    }
+    .conteudo-body{
+        top: 275px;
+    }
+}

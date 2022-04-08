@@ -1,0 +1,5 @@
+Nome do DB == projetogael
+Nome da Tabela == pedidos
+Host == Localhost
+User == root
+Password == 

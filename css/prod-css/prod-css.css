@@ -1,0 +1,166 @@
+.bg-progress{
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+}
+
+.progress{
+    height: 50px;
+    width: 80%;
+    text-align: center !important;
+}
+
+.progress-name-bar{
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+
+.status-pdp{
+    align-content: space-between;
+    width: 20%;
+    display: flex;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.txt-cima p{
+    margin-bottom: 5px;
+}
+
+.txt-lado p, .txt-cima p{
+    font-size: 14px;
+}
+
+.txt-lado{
+    width: 30%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.txt-cima{
+    width: 70%;
+} 
+
+.txt-lado i{
+    font-size: 36px;
+}
+
+@media screen and (max-width: 1100px){
+    .bg-progress{
+        display: block;
+    }
+    .status-pdp{
+        width: 100%;
+        padding: 20px;
+    }
+    .progress{
+        width: 100%;
+    }
+    .txt-cima{
+        width: 50%;
+    }
+    .txt-lado{
+        width: 10%;
+    }
+    
+}
+
+.btndwd {
+    background-color: rgb(41, 232, 244);
+}
+
+.btndwd:hover {
+    background-color: #21a4ad;
+    box-shadow: rgb(41, 232, 244) 0px 20px 30px -10px;
+}
+
+.btnwar {
+    background-color: rgb(255, 153, 0);
+}
+
+.btnwar:hover {
+    box-shadow: rgb(255, 153, 0) 0px 20px 30px -10px;
+    background-color: rgb(180, 112, 10);
+}
+
+.btndel {
+    background-color: rgb(220, 53, 69);
+}
+
+.btndel:hover {
+    background-color: rgb(168, 29, 43);
+    box-shadow: rgb(220, 53, 69) 0px 20px 30px -10px;
+}
+
+
+.group-btn{
+    padding: 20px;
+}
+
+.group-btn button{
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 750px){
+    .group-btn{
+        text-align: center;
+    }
+    .group-btn button{
+        margin-bottom: 20px;
+    }
+}
+
+.responsavel-inpt{
+    padding: 20px;
+    font-size: 18px;
+}
+
+.responsavel-inpt label{
+    margin-bottom: 10px;
+}
+
+.responsavel-inpt input{
+    width: 300px;
+}
+
+input{
+    padding: 10px;
+    border: transparent;
+    border-radius: 20px;
+    display: block;
+    padding-left: 15px;
+}
+
+input:focus{
+    outline: #bdbdbd solid 2px !important;
+}
+
+.arrow{
+    display: flex; text-align: center;padding-left: 20px;width: 80%;
+}
+
+.bc-1, .bc-2, .bc-3, .bc-4{
+    font-size: 24px;
+    display: block; text-align: center;width: 24.5%;
+}
+
+@media screen and (max-width: 1100px){
+    .arrow{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 630px){
+    .bar-lateral{
+        height: 40vh;
+    }
+    .conteudo-body{
+        top: 400px;
+    }
+}
+
+:disabled{
+    background-color: white;
+}

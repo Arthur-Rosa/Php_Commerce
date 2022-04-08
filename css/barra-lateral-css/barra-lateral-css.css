@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main,
+body {
+    height: 100%;
+}
+
+.bar-lateral {
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+
+.bar-lateral .content-bar {
+    display: flexbox;
+    padding: 10px;
+}
+
+.img-acc {
+    width: 10% !important;
+    height: 10%;
+}
+
+.img-acc-user {
+    display: block;
+    width: 30px;
+    border-radius: 50% !important;
+}
+
+.super-content {
+    display: flex;
+    justify-content: center;
+}
+
+.name-system {
+    height: 100%;
+    margin-top: 5px !important;
+    padding-left: 20px;
+}
+
+.name-system span {
+    width: 100%;
+    color: #B2B2B2;
+    font-size: 1em;
+}
+
+.escolhas-bar {
+    width: 100%;
+}
+
+.sch-img {
+    width: 10%;
+    border-radius: 50%;
+}
+
+.sch {
+    margin-top: 20px;
+}
+
+.sch a {
+    color: #B2B2B2;
+    text-decoration: none;
+    padding-left: 10px;
+    transition-duration: 0.2s;
+}
+
+.sch a:hover {
+    color: #7a7a7a;
+}
+
+.sch a::before {
+    content: '';
+    width: 100px;
+    height: 2px;
+    background-color: #B2B2B2;
+    display: block;
+    left: 0;
+    margin-bottom: -25px;
+    transition: all 0.2s ease-out;
+    transform: scale(0, 1);
+    transform-origin: center left;
+}
+
+.sch a:hover::before {
+    transform: scale(1, 1);
+}
+
+
+/* BODY */
+
+body {
+    display: flex;
+    background-color: #dad5c6cc !important;
+}
+
+.body {
+    width: 80%;
+    height: 100vh;
+}
+
+.content-user {
+    padding: 25px;
+    position: absolute;
+    width: 20%;
+    color: #979797;
+}
+
+.content-user img {
+    margin-left: 10px;
+}
+
+.content-super-body hr {
+    position: relative;
+    top: 150;
+}
+
+.cardD {
+    transition-duration: 0.7s;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    width: 20%;
+    height: 125px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+
+
+.cardD:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.conteudo-body {
+    position: absolute;
+    top: 150px;
+    width: 65%;
+}
+
+.content-card-top {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-group-card {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.txt-card p {
+    margin-bottom: 0;
+}
+
+.txt-card .tittle {
+    font-size: 1.2em;
+    color: #B2B2B2;
+}
+
+.txt-card .number {
+    font-size: 1em;
+    text-align: end;
+}
+
+.bar {
+    height: 2px;
+    margin-top: 10px;
+    background-color: #B2B2B2;
+    width: 100%;
+}
+
+.bar p {
+    color: #B2B2B2;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.cardD {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.ped-producao {
+    width: 100%;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.ped-producao p {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 1.2em;
+}
+
+.img-card i {
+    font-size: 36px;
+}
+
+.bellcolor {
+    color: rgb(251, 202, 40);
+}
+
+.cogcolor {
+    color: rgb(47, 214, 214);
+}
+
+.envelopecolor {
+    color: rgb(255, 121, 121);
+}
+
+.coincolor {
+    color: rgb(43, 190, 43);
+}
+
+.pedido-card {
+    margin-top: 20px;
+    cursor: pointer;
+    transition-duration: 0.7s;
+    width: 100%;
+    height: 75px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.pedido-card:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.txt-pedido {
+    display: flex;
+}
+
+.txt-pedido p {
+    color: #B2B2B2;
+    margin-top: auto;
+}
+
+.txt-pedido i {
+    padding: 10px;
+    font-size: 36px;
+}
+
+.content-pedido {
+    justify-content: space-between;
+    display: flex;
+}
+
+.txt-cliente {
+    display: flex;
+}
+
+.txt-cliente i {
+    padding: 10px;
+    font-size: 36px;
+    color: #B2B2B2;
+}
+
+.txt-cliente p {
+    margin-top: auto;
+    color: #979797;
+}
+
+.button-producao {
+    padding-right: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.card-aberto:hover {
+    box-shadow: rgb(251, 202, 40) 0px 20px 30px -10px;
+}
+
+.card-engr:hover {
+    box-shadow: rgb(47, 214, 214) 0px 20px 30px -10px;
+}
+
+.card-envelope:hover {
+    box-shadow: rgb(255, 121, 121) 0px 20px 30px -10px;
+}
+
+.card-coin:hover {
+    box-shadow: rgb(43, 190, 43) 0px 20px 30px -10px;
+}
+
+@media screen and (max-width: 1920px) {
+    .bar-lateral{
+        height: 110vh;
+    }
+}
+@media screen and (max-width: 1650px) {
+    .bar-lateral {
+        height: 120vh;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .sch-img {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .bar-lateral {
+        height: 200vh;
+    }
+    .cardD {
+        width: 36%;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .content-pedido {
+        flex-wrap: wrap;
+    }
+    .pedido-card {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .body {
+        width: 100%;
+    }
+    .bar-lateral {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .bar-lateral {
+        width: 35%;
+    }
+    .pedido-card {
+        height: 200px;
+    }
+}
+
+
+@media screen and (max-width: 630px) {
+    .card-group-card {
+        width: 100%;
+        margin: 0;
+        display: block;
+    }
+    .cardD {
+        width: 80%;
+    }
+    body {
+        display: block;
+    }
+    .conteudo-body {
+        top: 350px;
+        width: 100%;
+    }
+    .bar-lateral {
+        width: 100%;
+        height: 35vh;
+    }
+    .content-user {
+        right: 20px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .content-user {
+        width: 45%;
+    }
+    .bar-lateral {
+        width: 100%;
+        height: 35vh;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .bar-lateral{
+        height: 40vh;
+    }
+    .content-user{
+        width: 60%;
+    }
+}

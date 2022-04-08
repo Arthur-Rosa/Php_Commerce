@@ -1,0 +1,174 @@
+.conteudo-body {
+    padding: 20px;
+    top: 100px !important;
+}
+
+.btn-newuser {
+    margin-bottom: 20px;
+}
+
+.btnall {
+    border: transparent;
+    padding: 20px;
+    border-radius: 20px;
+    width: 200px;
+    color: black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.btnnew {
+    background-color: rgb(53, 193, 30);
+}
+
+.btnnew:hover {
+    box-shadow: rgb(53, 193, 30) 0px 20px 30px -10px;
+    background-color: rgb(39, 136, 24);
+}
+
+.bg-table {
+    padding: 25px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.btn-editar {
+    transition-duration: 0.3s;
+    background-color: rgb(255, 193, 7);
+}
+
+
+.btn-editar:hover {
+    background-color: rgb(194, 151, 23);
+}
+
+.btn-excluir {
+    transition-duration: 0.3s;
+    background-color: rgb(220, 53, 69);
+}
+
+.btn-excluir:hover {
+    background-color: rgb(168, 29, 43);
+}
+
+.btnfuncionarios {
+    background-color: rgb(41, 232, 244);
+}
+
+.btnfuncionarios:hover {
+    background-color: #21a4ad;
+    box-shadow: rgb(41, 232, 244) 0px 20px 30px -10px;
+}
+
+.btnclientes {
+    background-color: rgb(255, 153, 0);
+}
+
+.btnclientes:hover {
+    box-shadow: rgb(255, 153, 0) 0px 20px 30px -10px;
+    background-color: rgb(180, 112, 10);
+}
+
+tbody {
+    border-top: 1px solid rgb(255, 255, 255) !important;
+    width: 100%;
+
+
+}
+
+table {
+    flex-wrap: wrap !important;
+}
+
+th {
+    width: 25%;
+}
+
+tfoot {
+    border-top: 2px solid rgb(172, 172, 172) !important;
+}
+
+td {
+    color: #999999;
+}
+
+@media (max-width: 768px) {
+    .btn-newuser{
+        width: 200px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .btn-newuser button{
+        margin-top: 10px;
+    }
+    .bg-table{
+        width: 65%;
+        margin: 0 auto;
+    }
+    .table-responsive {
+        position: relative;
+        width: 100%;
+        display: block;
+    }
+
+    .table-responsive tbody,
+    .table-responsive td,
+    .table-responsive tr {
+        display: block;
+    }
+
+    .table-responsive td,
+    .table-responsive th {
+        height: 35px;
+    }
+
+    .table-responsive tbody {
+        width: auto;
+        position: relative;
+        height: 200px;
+        overflow-x: overlay;
+        -webkit-overflow-scrolling: touch;
+        border-top: 1px solid rgb(182, 182, 182) !important;
+        white-space: nowrap;
+    }
+
+    .table-responsive tbody tr {
+        display: inline-block;
+    }
+
+    @media screen and (max-width: 630px){
+        .conteudo-body{
+            top: 350px !important;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .bg-table{
+            width: 100%;
+            margin: 0 auto;
+        }
+        .table-action tr {
+            border-bottom: 1px solid #dddddd;
+        }
+
+        .table-action td {
+            border: 0;
+        }
+
+        .table-action td:not(:first-child) {
+            display: block;
+        }
+    }
+}
+
+.td_edit{
+    display: flex;width: 500px;
+}
+
+@media screen and (max-width: 1500px){
+    .td_edit{
+        width: 100% !important;
+    }
+}

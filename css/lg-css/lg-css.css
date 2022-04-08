@@ -1,0 +1,95 @@
+main{
+    margin: 0 auto;
+    margin-top: 15%;
+}
+
+input{
+    border-radius: 30px;
+    border: transparent;
+    display: block;
+    padding: 15px;
+    width: 300px;
+    padding-left: 15px;
+    background-color: #d4d3cdcc;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+input:focus{
+    transition-duration: 0.7s;
+    outline: 1px solid rgb(192, 192, 192);
+    border: none;
+    background-color: white;
+}
+
+.btnall {
+    border: transparent;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    margin-top: 20px;
+    color: black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+fieldset{
+    padding: 50px;
+    border-radius: 20px;
+    background-color: white;
+    border: solid rgb(172, 172, 172) 1px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.btneffect {
+    transition-duration: 0.7s;
+    background-color: #d4d3cdcc;
+    border: 2px solid #000000;
+    border-radius: 30px;
+    box-shadow: #000000 4px 4px 0 0;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.btneffect:hover {
+    background-color: white;
+}
+
+.btneffect:active {
+    box-shadow: #000000 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+
+label{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+@media (min-width: 768px) {
+    .btneffect {
+          min-width: 120px;
+          padding: 0 25px;
+    }
+}
+
+p{
+    margin-bottom: 20px !important;
+    margin-top: 20px;
+}
+
+.cadas{
+    text-align: center !important;
+}
+
+.bg-btn{
+    text-align: center;
+}
