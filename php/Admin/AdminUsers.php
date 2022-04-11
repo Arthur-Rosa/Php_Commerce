@@ -126,9 +126,6 @@ $inicio = ($quantidade * $pagina) - $quantidade;
                             Nome
                         </th>
                         <th>
-                            Senha
-                        </th>
-                        <th>
                             Nível
                         </th>
                         <th>
@@ -159,7 +156,6 @@ $inicio = ($quantidade * $pagina) - $quantidade;
                     <tbody>
                         <tr>
                             <td><?php echo $nome; ?></td>
-                            <td><?php echo $senha; ?></td>
                             <td><?php echo $level; ?></td>
                             <td>
                                 <a class="btn btn-warning btn-editar"
@@ -325,8 +321,8 @@ if(@$_GET['edt']){
 
                     <div class="form-group">
                         <label for="id_produto">Senha</label>
-                        <input type="text" class="form-control mr-2" name="senha" placeholder="Usuário"
-                            value="<?php echo $senha ?>" required>
+                        <input type="text" class="form-control mr-2" name="senha" placeholder="Digite a nova senha"
+                            value="" required>
                     </div>
                     <br>
                     <div class="form-group">
@@ -352,8 +348,7 @@ if(@$_GET['edt']){
             <div class="modal-footer">
                 <button type="submit" class="btn btn-success mb-3" name="editar">Salvar </button>
 
-
-                <button type="button" class="btn btn-danger mb-3" data-dismiss="modal">Cancelar </button>
+                    <button type="button" onclick=" window.location.href = 'AdminUsers.php' " class="btn btn-danger mb-3" data-dismiss="modal">Cancelar </button>
                 </form>
             </div>
         </div>

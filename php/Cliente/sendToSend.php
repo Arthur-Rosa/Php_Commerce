@@ -148,7 +148,10 @@ if($_POST){
 
     $arquivoNovo = explode('.',$arquivo['name']);
 
-    if($arquivoNovo[sizeof($arquivoNovo)-1] != 'txt'){
+    echo $arquivoNovo[sizeof($arquivoNovo)-1];
+
+    if($arquivoNovo[sizeof($arquivoNovo)-1] != 'pdf'){
+        echo 'entrou';
         die('');
     } else {
         move_uploaded_file($arquivo['tmp_name'],'../Arquivos/'.$arquivo['name']); 
